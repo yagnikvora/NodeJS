@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node.js HTTP Server</title>
+</head>
+
+<body>
+    <label>Celcius to Fehrenhit : </label>
+    <input type="text" id="inputC" placeholder="Enter Celcius ">
+    <input type="button"
+        onclick="window.location.href='/ctof/'+encodeURIComponent(document.getElementById('inputC').value)"
+        value="Calculate"><br><br>
+    <label>Fehrenhit to Celcius : </label>
+    <input type="text" id="inputF" placeholder="Enter Fehrenhit ">
+    <input type="button"
+        onclick="window.location.href='/ftoc/'+encodeURIComponent(document.getElementById('inputF').value)"
+        value="Calculate"><br><br>
+    <label>Area of Circle : </label>
+    <input type="text" id="inputR" placeholder="Enter Redius ">
+    <input type="button"
+        onclick="window.location.href='/areaOfCircle/'+encodeURIComponent(document.getElementById('inputR').value)"
+        value="Calculate"><br><br>
+    <label>Check Odd or Even : </label>
+    <input type="text" id="val" placeholder="Enter Number ">
+    <input type="button"
+        onclick="window.location.href='/isOddEven/'+encodeURIComponent(document.getElementById('val').value)"
+        value="Calculate"><br><br>
+
+    <label>Check Prime : </label>
+    <input type="text" id="Pval" placeholder="Enter Number ">
+    <input type="button"
+        onclick="window.location.href='/isPrime/'+encodeURIComponent(document.getElementById('Pval').value)"
+        value="Check"><br><br>
+
+    <label>Check Armostrong : </label>
+    <input type="text" id="Aval" placeholder="Enter Number ">
+    <input type="button"
+        onclick="window.location.href='/isArmstrong/'+encodeURIComponent(document.getElementById('Aval').value)"
+        value="Check"><br><br>
+
+    <label>No of Digits : </label>
+    <input type="text" id="Dval" placeholder="Enter Number ">
+    <input type="button"
+        onclick="window.location.href='/noOfDigit/'+encodeURIComponent(document.getElementById('Dval').value)"
+        value="Find"><br><br>
+
+    <label>Sum of Digits : </label>
+    <input type="text" id="Sval" placeholder="Enter Number ">
+    <input type="button"
+        onclick="window.location.href='/sumOfDigit/'+encodeURIComponent(document.getElementById('Sval').value)"
+        value="Find"><br><br>
+
+    <label>Positive or Nagative : </label>
+    <input type="text" id="PNval" placeholder="Enter Number ">
+    <input type="button"
+        onclick="window.location.href='/checkPN/'+encodeURIComponent(document.getElementById('PNval').value)"
+        value="Find"><br><br>
+
+    <label>Max From Two : </label>
+    <input type="text" id="twomax1" placeholder="Enter First number ">
+    <input type="text" id="twomax2" placeholder="Enter Second number ">
+    <input type="button"
+        onclick="window.location.href='/maxTwo/'+encodeURIComponent(document.getElementById('twomax1').value)+'/'+encodeURIComponent(document.getElementById('twomax2').value)"
+        value="Find"><br><br>
+
+    <label>Max From Three : </label>
+    <input type="text" id="threemax1" placeholder="Enter First number ">
+    <input type="text" id="threemax2" placeholder="Enter Second number ">
+    <input type="text" id="threemax3" placeholder="Enter Third number ">
+
+    <input type="button"
+        onclick="window.location.href='/maxThree/'+encodeURIComponent(document.getElementById('threemax1').value)+'/'+encodeURIComponent(document.getElementById('threemax2').value)+'/'+encodeURIComponent(document.getElementById('threemax3').value)"
+        value="Find"><br><br>
+
+    <label>Check Palindrome : </label>
+    <input type="text" id="palinval" placeholder="Enter Number ">
+    <input type="button"
+        onclick="window.location.href='/isPalindrome/'+encodeURIComponent(document.getElementById('palinval').value)"
+        value="Check"><br><br>
+
+    <label>Enter No. of steps : </label>
+    <input type="text" id="steps" placeholder="Enter N ">
+    <input type="button"
+        onclick="window.location.href='/fibonacci/'+encodeURIComponent(document.getElementById('steps').value)"
+        value="Check"><br><br>
+
+    <label>Check Perfact : </label>
+    <input type="text" id="perfval" placeholder="Enter Number ">
+    <input type="button"
+        onclick="window.location.href='/isPerfact/'+encodeURIComponent(document.getElementById('perfval').value)"
+        value="Check"><br><br>
+    
+    <label>Check Happy : </label>
+    <input type="text" id="happyval" placeholder="Enter Number ">
+    <input type="button"
+        onclick="window.location.href='/isHappy/'+encodeURIComponent(document.getElementById('happyval').value)"
+        value="Check"><br><br>
+</body>
+
+</html>

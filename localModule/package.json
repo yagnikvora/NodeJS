@@ -1,0 +1,14 @@
+{
+  "name": "localmodule",
+  "version": "1.0.0",
+  "description": "my module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yagnik",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
